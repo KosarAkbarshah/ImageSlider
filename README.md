@@ -2,6 +2,7 @@
 
 **Fancy slider with hover effect using only CSS flex**
 
+![Screenshot 2024-08-18 140931](https://github.com/user-attachments/assets/e9cd8943-14f3-4ae3-8b44-4bc694049d29)
 
 
 - [Demo Project]( https://kosarakbarshah.github.io/ImageSlider/)
