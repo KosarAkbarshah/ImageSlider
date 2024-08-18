@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+
+    >div {
+        width: 1%;
+        /*to make room for flex-grow to grow*/
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.639);
+        background-size: cover;
+        transition: 1s;
+        flex-grow: 1;
+        /*fills up the empty space */
+
+        &:hover {
+            flex-grow: 5;
+        }
+
+        &:nth-of-type(1) {
+            background-image: url(../assets/img/blake-verdoorn-cssvEZacHvQ-unsplash.jpg);
+
+        }
+
+        &:nth-of-type(2) {
+            background-image: url(../assets/img/chris-lawton-7FHIdBEKBxI-unsplash.jpg);
+        }
+
+        &:nth-of-type(3) {
+            background-image: url(../assets/img/crina-parasca-ND7ULgga2S8-unsplash.jpg);
+        }
+
+        &:nth-of-type(4) {
+            background-image: url(../assets/img/dima-kletsel-vZu33d6PY3M-unsplash.jpg);
+        }
+
+        &:nth-of-type(5) {
+            background-image: url(../assets/img/jeremy-bishop-EwKXn5CapA4-unsplash.jpg);
+        }
+
+        &:nth-of-type(6) {
+            background-image: url(../assets/img/matheo-jbt-yqIFxfERlpU-unsplash.jpg);
+        }
+
+        &:nth-of-type(7) {
+            background-image: url(../assets/img/micheile-henderson-5XpU3CgvHsE-unsplash.jpg);
+        }
+
+        &:nth-of-type(8) {
+            background-image: url(../assets/img/morefun_boy-OT_PcmGAsDI-unsplash.jpg);
+        }
+
+        &:nth-of-type(9) {
+            background-image: url(../assets/img/ryan-klaus-U7YyeqYqUqA-unsplash.jpg);
+        }
+
+        &:nth-of-type(10) {
+            background-image: url(../assets/img/shifaaz-shamoon-oR0uERTVyD0-unsplash.jpg);
+        }
+    }
+
+}
